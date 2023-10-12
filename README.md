@@ -1,2 +1,2 @@
-# odin-recipes.github.io
+# odin-recipes
 For theoodinprojects
