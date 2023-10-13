@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gaegu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    line-height: 1.6;
+    color: rgb(18, 55, 4);
+}
+
+
+h1{
+    font-size:2.5rem;
+}
+img{
+    width: 500px;
+}
+
+p{
+        color: #788284;
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+}
+
+.writing{
+    width: 200px;
+    margin:auto;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    img{
+        width:800px;
+    }
+     
+        h1 {
+            font-size: 4rem;
+        }
+
+
+    p {
+        font-size: 2rem;      
+    }
+
+    .writing {
+        width: 500px;
+        }
+
+}
