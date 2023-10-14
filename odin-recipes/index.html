@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
     <title>Odin Recipes</title>
 
 
     <style>
     body{
-        background-image: url(./recipes/bg_image.jpg);
+        background-image: url(./recipes/mobile_bg_image.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -23,21 +23,26 @@
     h1{
         
         color:rgba(255, 220, 213, 1);
-        font-size: 3rem;
+        font-size: 4rem;
         padding:2rem 0 0 0;
     }
 
     ul li a{
         color:rgb(254, 177, 135, 100);
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     
     a:hover{
         color:rgb(240, 212, 172);
+        text-decoration: underline;
     }
 
     @media screen and (min-width: 768px){
+        body{
+        background-image: url(./recipes/bg_image.jpg);
+        }
+        
         h1{
             font-size: 8rem;
         }
