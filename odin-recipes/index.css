@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gaegu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    line-height: 1.6;
+    color: rgb(18, 55, 4);
+}
+
+
+h1{
+    font-size:2.5rem;
+    margin: 2rem 0 1rem 0;
+}
+img{
+    width: 500px;
+}
+
+p{
+        color: #788284;
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+}
+
+.writing{
+    width: 200px;
+    margin:auto;
+    padding-bottom: 1rem;
+}
+
+#home{
+    background-color:rgba(35, 62, 20, 1);
+    color: white;
+    padding: 6px 18px;
+    border-radius:3px;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px){
+    img{
+        width:800px;
+    }
+     
+        h1 {
+            font-size: 4rem;
+            padding: 30px 24px;
+        }
+
+
+    p {
+        font-size: 2rem;      
+    }
+
+    .writing {
+        width: 400px;
+        }
+
+        #home{
+            font-size: 1.7rem;
+            padding: 6px 26px;
+        }
+
+
+        html, body{
+            align-items: center;
+            
+        }
+
+        
+}
