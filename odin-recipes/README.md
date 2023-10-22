@@ -2,7 +2,7 @@
 
 Welcome to _Odin Recipes_! This delightful project is a food website crafted solely using HTML and CSS as an assignment from [The Odin Project](https://www.theodinproject.com/). Experience a delightful culinary journey through the recipes we've collated for you.
 
-**Live Preview**: [Odin Recipes Website](https://jen67.github.io/odin-recipes/)
+**Live Preview**: [Odin Recipes Website](https://jen67.github.io/odin-recipes/odin-recipes/index.html)
 
 ## 📝 Project Overview
 
